@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font:normal 13px/1 sans-serif;
+}
+
+#page{
+	margin: 0 auto;
+	width: 978px;
+	padding: 8px;
+}
+
+ul.menu{
+	list-style: none;
+	background: #f3f3f3;
+	height: 50px;
+}
+
+ul.menu li{
+	float: left;
+	margin-right: 10px;
+}
+
+ul.menu li a{
+	color: #222;
+	text-decoration: none;
+}
+
+ul.menu li a:hover{
+	color: #444;
+	text-decoration: underline;
+}
+
+ul.menu li a.ativo{
+	text-decoration: underline;
+}
